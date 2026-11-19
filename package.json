@@ -1,20 +1,24 @@
 {
-  "name": "bookstore_manager_api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.39.5",
-    "eslint": "^9.39.5",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.14.0",
-    "prettier": "^3.10.1"
-  }
+    "name": "bookstore_manager_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "npx husky install",
+        "prepare": "husky"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.39.5",
+        "eslint": "^9.39.5",
+        "eslint-plugin-react": "^7.37.5",
+        "globals": "^17.14.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^17.6.1",
+        "prettier": "^3.10.1"
+    }
 }

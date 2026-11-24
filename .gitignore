@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 client.js
+.postgres
+.env
 
 # Editor directories and files
 .vscode/*
